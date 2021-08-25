@@ -1,6 +1,9 @@
 "use strict"
 
-
+function piscarLampada(){
+    const lampada = document.getElementById("lampada")
+    return lampada.src.setTimeout
+}
 
 function lampadaQuebrada(){
     const lampada = document.getElementById("lampada")
