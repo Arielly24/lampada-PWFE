@@ -44,13 +44,12 @@ function ligarLampada (){
     const lampada = document.getElementById("lampada")
     const botaoLigar = document.getElementById("ligar")
     const botaoDesligar = document.getElementById("desligar")
-    const botaoPiscar = document.getElementById("piscar")
 
     if (!lampadaQuebrada()){
         lampada.src = "img/ligada.jpg"
         botaoLigar.disable = true
         botaoDesligar.disable = false
-        botaoPiscar.disable = true
+       
     }
 
 
