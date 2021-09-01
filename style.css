@@ -33,6 +33,7 @@ button{
 footer{
     justify-content: center;
     align-items: center;
+    margin: 25px;
 }
 #ligar{
     background-color: rgb(250, 250, 138);
@@ -42,5 +43,5 @@ footer{
 }
 #piscar{
     
-    background-color: lightseagreen;
+    background-color: rgb(243, 74, 32);
 }

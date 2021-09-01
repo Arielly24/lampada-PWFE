@@ -1,8 +1,8 @@
 "use strict"
 
 function piscarLampada(){
-    const lampada = document.getElementById("lampada")
-    return lampada.src.setTimeout
+    setInterval(ligarLampada, 200)
+    setInterval(desligarLampada,400)
 }
 
 function lampadaQuebrada(){
@@ -20,6 +20,7 @@ function quebrarLampada() {
     botaoDesligar.disable = true    
 }
 
+setTimeout(ligarLampada, 5000); 
 
 
 function ligarLampada (){
@@ -47,10 +48,9 @@ function desligarLampada (){
     botaoDesligar.disable = true
 }
 
+
 document.getElementById("desligar")
 .addEventListener("click", desligarLampada)
-
-
 
 document.getElementById("ligar")
 .addEventListener("click", ligarLampada)
@@ -64,6 +64,9 @@ document.getElementById("lampada")
 
 document.getElementById("lampada")
 .addEventListener("dblclick", quebrarLampada)
+
+document.getElementById("piscar")
+.addEventListener("click", piscarLampada)
 
 
 
